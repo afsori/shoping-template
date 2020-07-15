@@ -1,0 +1,319 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper-login{
+    background-color: #fff;
+    min-width: 75rem;
+}
+nav.header{
+    height: 6rem;
+    box-shadow: 0 6px 6px rgba(0,0,0,.06);
+    -moz-box-align: center;
+    display: flex;
+    align-items: center;
+}
+.header .container{
+    width: 75rem;
+margin: 0 auto;
+justify-content: space-between;
+-moz-box-pack: justify;
+display: flex;
+align-items: center;
+-moz-box-align: center;
+}
+a.caption-login{
+    -moz-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+text-decoration: none;
+}
+.image-login-market{
+    height: 2.625rem;
+margin-top: -.75rem;
+margin-right: -1.125rem;
+fill: #ee4d2d;
+width: 11.875rem;
+overflow: hidden;
+position: relative;
+display: inline-block;
+margin-right: 10px;
+}
+.caption-login .login{
+    color: #222;
+font-size: 1.5rem;
+}
+
+.wrapper-content{
+    background-color: rgb(238, 77, 45);
+}
+.wrapper-content .container{
+    align-items: center;
+    padding: 70px 0;
+justify-content: space-evenly;
+    /* position: absolute;
+left: 0;
+top: 0; */
+/* height: 39.5rem; */
+display: flex;
+}
+.wrapper-form-login{
+    z-index: 0;
+}
+.wrapper-form{
+    background-color: #fff;
+box-shadow: 0 3px 10px 0 rgba(0,0,0,.14);
+border-radius: .25rem;
+overflow: hidden;
+width: 31.25rem;
+box-sizing: border-box;
+}
+.header-form{
+    -moz-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
+display: flex;
+align-items: center;
+box-sizing: border-box;
+height: 5rem;
+padding: 0 1.875rem;
+}
+.headline-login{
+    font-size: 1.25rem;
+color: #222;
+}
+.caption-login span{
+    padding-right: .25rem;
+font-size: .875rem;
+color: rgba(0,0,0,.26);
+}
+.caption-login a{
+    font-size: .875rem;
+font-weight: 500;
+text-decoration: none;
+color: #ee4d2d;
+}
+
+.input-form{
+    padding: 0 1.875rem 1.875rem;
+overflow: hidden;
+}
+.input-form-email{
+    margin-bottom: .625rem;
+    box-sizing: border-box;
+width: 100%;
+height: 2.5rem;
+overflow: hidden;
+border: 1px solid rgba(0,0,0,.14);
+border-radius: 2px;
+box-shadow: inset 0 2px 0 rgba(0,0,0,.02);
+display: flex;
+}
+.input-email{
+    padding: .75rem;
+outline: none;
+border: none;
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-moz-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+    flex-shrink: 1;
+-webkit-flex-shrink: 0;
+-ms-flex-negative: 0;
+flex-shrink: 0;
+-webkit-filter: none;
+filter: none;
+}
+.input-form-pasword{
+    margin-bottom: .625rem;
+    box-sizing: border-box;
+width: 100%;
+height: 2.5rem;
+overflow: hidden;
+border: 1px solid rgba(0,0,0,.14);
+border-radius: 2px;
+box-shadow: inset 0 2px 0 rgba(0,0,0,.02);
+display: flex;
+}
+.input-password{
+    padding: .75rem;
+outline: none;
+border: none;
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-moz-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+    flex-shrink: 1;
+-webkit-flex-shrink: 0;
+-ms-flex-negative: 0;
+flex-shrink: 0;
+-webkit-filter: none;
+filter: none;
+}
+.btn-login{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+background-color: #ee4d2d;
+box-shadow: 0 1px 1px rgba(0,0,0,.09);
+width: 100%;
+outline: none;
+padding: 0 .625rem;
+border: 0;
+background: none;
+    background-color: rgba(0, 0, 0, 0);
+border-radius: .125rem;
+height: 2.5rem;
+min-width: 8.75rem;
+-moz-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+align-items: center;
+display: flex;
+color: #fff;
+background-color: #ee4d2d;
+box-shadow: 0 1px 1px rgba(0,0,0,.09);
+}
+.btn-login:hover{
+    color: white;
+    text-decoration: none;
+}
+.lupa-password{
+    margin: 1.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    -moz-box-pack: justify;
+}
+.lupa-password a{
+    color: #05a;
+    text-decoration: none;
+}
+.wrapper-atau{
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+.wrapper-atau .garis{
+    border: .03125rem solid #dbdbdb;
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-moz-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+}
+.wrapper-atau .atau{
+    color: #ccc;
+padding: 0 1rem;
+text-transform: uppercase;
+}
+.wrapper-login-social-media{
+    margin: 0 -.3125rem;
+    display: flex;
+    justify-content: center;
+}
+.btn-facebook{
+    justify-content: center;
+    -moz-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+margin: .3125rem;
+background-color: #1877f2;
+color: #fff;
+width: 100%;
+font-size: 1rem;
+font-weight: 500;
+height: 2.5rem;
+border-radius: 2px;
+padding: 0 .125rem;
+color: #fff;
+box-shadow: 0 1px 1px rgba(0,0,0,.09);
+-webkit-box-align: center;
+-webkit-align-items: center;
+-moz-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-appearance: button;
+cursor: pointer;
+outline: none;
+}
+.btn-facebook img{
+    margin-right: 15px;
+    width: 2.25rem;
+height: 2.25rem;
+border-radius: 1px;
+font-size: 1rem;
+font-weight: 500;
+width: 1.375rem;
+height: 1.375rem;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+}
+.btn-facebook span{
+    margin-right: .625rem;
+    font-size: 1rem;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+}
+.btn-google{
+    justify-content: center;
+    -moz-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+margin: .3125rem;
+background-color: #1877f2;
+color: #fff;
+width: 100%;
+font-size: 1rem;
+font-weight: 500;
+height: 2.5rem;
+border-radius: 2px;
+padding: 0 .125rem;
+color: #fff;
+box-shadow: 0 1px 1px rgba(0,0,0,.09);
+-webkit-box-align: center;
+-webkit-align-items: center;
+-moz-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-appearance: button;
+cursor: pointer;
+outline: none;
+}
+.btn-google img{
+    width: 2.25rem;
+height: 2.25rem;
+border-radius: 1px;
+font-size: 1rem;
+font-weight: 500;
+width: 1.375rem;
+height: 1.375rem;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+margin-right: 15px;
+}
+.btn-google span{
+    margin-right: .625rem;
+    font-size: 1rem;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+}

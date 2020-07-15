@@ -1,0 +1,130 @@
+.full-home-banners-wrapper{
+    padding-top: 30px;
+margin-top: 0;
+background-color: #fff;
+box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+border-radius: .125rem;
+overflow: hidden;
+}
+.full-home-banners{
+    line-height: 0;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+min-height: 235px;
+max-height: 235px;
+}
+.full-home-banners-wrapper .container-padding{
+    padding: 0;
+}
+.full-home-banners__main-banner{
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+border-radius: .125rem;
+    border-top-left-radius: 0.125rem;
+    border-bottom-left-radius: 0.125rem;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+-webkit-box-flex: 2;
+-webkit-flex: 2 1 0;
+-moz-box-flex: 2;
+-ms-flex: 2 1 0px;
+flex: 2 1 0;
+overflow: hidden;
+display: flex;
+}
+.stardust-carousel{
+    width: 100%;
+    background-color: black;
+
+/* height: 100%; */
+position: relative;
+}
+.carousel-item img{
+    object-fit: cover;
+    height: 250px;
+}
+.full-home-banners__right-wrapper{
+    -webkit-box-flex: 1;
+-webkit-flex: 1 1 0;
+-moz-box-flex: 1;
+-ms-flex: 1 1 0px;
+flex: 1 1 0;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+-moz-box-orient: vertical;
+-moz-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+margin-left: .3125rem;
+line-height: 0;
+}
+.full-home-banners__right-banner:first-child{
+    border-top-right-radius: 2px;
+overflow: hidden;
+}
+.full-home-banners__right-wrapper{
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    display: block;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    border-radius: .125rem;
+        border-top-right-radius: 0.125rem;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 50%;
+    -moz-box-flex: 1;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    background-position: bottom;
+}
+.full-home-banners__full-height{
+    line-height: 0;
+}
+.full-home-banner-dua{
+    margin-top: 7px;
+}
+.full-home-banners__full-height img{
+    width: 398px;
+height: 115px;
+}
+.carousel-control-prev{
+    background-color: black;
+    width: 5%;
+height: 16%;
+align-items: center;
+display: flex;
+justify-content: center;
+bottom: 20%;
+top: 37%;
+left: 0;
+right: 0;
+}
+.carousel-control-next{
+    background-color: black;
+    width: 5%;
+height: 16%;
+align-items: center;
+display: flex;
+justify-content: center;
+bottom: 20%;
+top: 37%;
+}
+.carousel-control-prev-icon{
+    width: 50px;
+}
+.carousel-control-next-icon{
+    width: 50px;
+}
